@@ -53,6 +53,7 @@
             android:textColor="#FFFFFF"/>
 
         <EditText
+            android:id="@+id/txtNomeProduto"
             android:layout_width="340dp"
             android:layout_gravity="center"
             android:backgroundTint="#FFFFFF"
@@ -73,6 +74,7 @@
             android:layout_marginLeft="19dp"/>
 
         <EditText
+            android:id="@+id/txtValorProduto"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
@@ -95,6 +97,7 @@
             />
 
         <EditText
+            android:id="@+id/txtQuantidadeProduto"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
@@ -104,6 +107,7 @@
             />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnSalvar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#E53935"
@@ -113,7 +117,7 @@
             android:elevation="6dp"
             app:borderWidth="0dp"
 
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="15dp"/>
 
 
 
