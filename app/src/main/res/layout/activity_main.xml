@@ -108,6 +108,7 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnSalvar"
+            android:onClick="botaoSalvarProduto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#E53935"
