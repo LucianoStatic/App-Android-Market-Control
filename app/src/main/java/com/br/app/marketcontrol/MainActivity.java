@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void botaoSalvarProduto(View view) {
 
+        metodoSalvarProdutos();
 
     }
 
